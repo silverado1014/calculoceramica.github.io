@@ -1,0 +1,17 @@
+.inputwidth150 {/*Cajas de texto con 150px de ancho*/
+    width: 150px;
+}
+
+.inputwidth450 {/*Cajas de texto con 450px de ancho*/
+    width: 450px;
+}
+
+.centrado{/*Para centrar cualquier elemento de la pagina*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imglogo{
+    padding: 0px;
+    margin: 0px;
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="styles//styles1.css">
+    <title>Calculo Ceramica</title>
+</head>
+<body>
+ <img src="images//logoPVC.JPG" class="imglogo" alt="Cargando imagen..." id="logo" width="350" height="130">
+ <form class="p-4" action="" method="" id="form1">
+     <legend>Calcular entrega de Cerámicas</legend>
+     <div class="form-group">
+         <label for="mtsvendidos">M2 Vendidos:</label>
+         <input type="number" name="vendidos" id="vendidos" class="form-control inputwidth150" placeholder="Mts Vendidos" autofocus required>
+     </div>
+
+     <div class="form-group">
+         <label for="mtscaja">M2 Caja</label>
+         <input type="number" name="caja" id="caja" class="form-control inputwidth150" placeholder="Mts de la caja" step="any" required>
+    </div>
+
+    <div class="form-group">
+        <label for="unidades">Unds Contenido Caja</label>
+        <input type="number" name="unidades" id="unidades" class="form-control inputwidth150" placeholder="Unidades caja" required>
+    </div>
+ 
+    <div class="form-group">
+        <label for="entrega:" id="entregar">Cantidad a entregar:</label>
+        <input type="text" name="" id="entrega" class="form-control" readonly>
+    </div>
+</form> 
+
+<!--Botón queda por fuera del formulario para que deje los campos con sus valores
+hasta que presione otro botón  'Limpiar'-->
+
+<button class="btn btn-primary btn-block inputwidth150 centrado" onclick="calcularCeramica()">Calcular</button>
+<button class="btn btn-primary btn-block inputwidth150 centrado" onclick="limpiarForm()" >Limpiar</button>
+
+<script src="scripts//main.js"></script>
+</body>
+</html>
